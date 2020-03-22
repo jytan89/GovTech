@@ -1,0 +1,66 @@
+# Metadata for CEA Salespersons' Transaction Records (for HDB Resale)
+---
+Identifier: '4ca1b4ae-a264-4eb2-940f-7d36db2ebbde'
+Name: 'hdb-track-record'
+Title: 'CEA Salespersons'' Transaction Records (for HDB Resale)'
+Description: 'Records of HDB flat resale transactions closed by salespersons. Records
+  are updated monthly.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Housing'
+  - 'Property'
+  - 'Property Agent'
+  - 'Real Estate'
+Publisher:
+  Name: 'Council For Estate Agencies'
+  Admin 1:
+    Name: 'Nur Laila ABDUL AZIZ'
+    Department: 'Corporate Development'
+    Email: 'Nur_Laila_ABDUL_AZIZ@cea.gov.sg'
+Sources:
+  - 'Council For Estate Agencies'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2020-03-15 to 2020-04-15'
+Last Updated: '2020-03-15T01:31:42.306730'
+Resources:
+  -
+    Identifier: '8a087b7c-a11b-4da8-bbb6-ac933f465acd'
+    Title: 'Records of HDB flat resale transactions closed by salespersons.'
+    Url: 'https://storage.data.gov.sg/hdb-track-record/resources/records-of-hdb-flat-resale-transactions-closed-by-salespersons-2020-03-15T01-31-41Z.csv'
+    Format: 'CSV'
+    Coverage: '2020-03-15 to 2020-04-15'
+    Description: 'Records of HDB flat resale transactions closed by salespersons.'
+    Last Updated: '2020-03-15T01:31:41.404999'
+    Schema:
+      -
+        Name: 'complete_date_txt'
+        Title: 'Completion Date'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'The month and year of Transaction Completion'
+      -
+        Name: 'town_txt'
+        Title: 'Town'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Town area of transaction'
+      -
+        Name: 'represented'
+        Title: 'Represented'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Representing Seller/Buyer'
+      -
+        Name: 'salesperson_name'
+        Title: 'Salesperson Name'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Name of Salesperson representing the transaction'
+      -
+        Name: 'salesperson_reg_no'
+        Title: 'Salesperson Reg No'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Registration Number of Salesperson representing the transaction'
